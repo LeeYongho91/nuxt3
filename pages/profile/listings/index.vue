@@ -1,9 +1,9 @@
 <script setup>
 definePageMeta({
-  layout: 'custom'
-})
+  layout: 'custom',
+});
 
-const { listings } = useCars() 
+const { listings } = useCars(); 
 </script>
 
 
