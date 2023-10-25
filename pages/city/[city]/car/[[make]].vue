@@ -14,6 +14,13 @@ watch(() => route.query, () => {
 
 <template>
   <div>
-      <CarCards :cars="cars" />
+      <CarCards :cars="cars" v-if="cars.length" />
+      <h1 v-else class="text-red-600">No Cars Found With Filters</h1>
   </div>
 </template>
+
+<!-- ROUTE -->
+<!-- /car/[car-name]-[car-id] -->
+
+<!-- ENDPOINT -->
+<!-- /api/car/[id] -->
