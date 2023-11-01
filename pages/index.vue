@@ -2,6 +2,7 @@
 useHead({
   title: "Cartrader"
 })
+console.log(`test`);
 </script>
 
 <template>
